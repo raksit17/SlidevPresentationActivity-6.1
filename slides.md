@@ -1,24 +1,10 @@
 ---
-title: Activity 6.1
+layout: MainTitle
 theme: seriph
-background: /assets/images/banaa.jpeg
-backgroundOverlay: rgba(0, 0, 0, 0.4)
-backgroundSize: cover
-backgroundPosition: center
-transition: slide
 
 ---
 
-# Activity 6.1
 
-<div style="text-align: center; padding: 20px; border: 3px solid #fff; border-radius: 10px; background-color: rgba(0, 0, 0, 0.5);">
-  <motion :initial="{ opacity: 0, y: 50 }" :animate="{ opacity: 1, y: 0 }" transition="0.8s">
-    <h1 style="color: #fff; font-size: 2em; margin-bottom: 0.5em;"><span style="color: lime;">การประเมินความสุกของพวงกล้วยพื่อความพร้อมสำหรับการเก็บเกี่ยวโดยใช้ Image Processing</span></h1>
-  </motion>
-  <motion :initial="{ opacity: 0 }" :animate="{ opacity: 1 }" transition="1.2s">
-    <!-- <p style="color: #ccc; font-size: 1.5em;">การประเมินความสุกของพวงกล้วยน้ำว้าในต้นเพื่อความพร้อมสำหรับการเก็บเกี่ยวโดยใช้ Image Processing</p> -->
-  </motion>
-</div>
 ---
 layout: GreenLayout
 title: ปัญหาที่สนใจ

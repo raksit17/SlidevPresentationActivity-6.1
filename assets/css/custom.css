@@ -1,0 +1,46 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: url('./assets/images/banaa.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(5px); /* ทำพื้นหลังเบลอ */
+  }
+  
+  /* กรอบข้อความ */
+  .text-box {
+    border: 3px solid #f4d03f; /* กรอบสีเหลืองทอง */
+    padding: 20px; /* ระยะห่างภายใน */
+    border-radius: 10px; /* มุมโค้งของกรอบ */
+    background: rgba(0, 0, 0, 0.7); /* พื้นหลังโปร่งใส */
+    color: #ffffff; /* สีตัวอักษร */
+    text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5); /* เงาสำหรับเพิ่มความลึก */
+    max-width: 80%; /* จำกัดความกว้าง */
+    margin: 20px auto; /* จัดให้อยู่กึ่งกลาง */
+  }
+  
+  /* สไตล์สำหรับหัวข้อในกรอบ */
+  .text-box h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #f4d03f; /* สีเหลืองทอง */
+  }
+  
+  /* สไตล์สำหรับข้อความ */
+  .text-box p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* แอนิเมชัน */
+  .text-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .text-box:hover {
+    transform: scale(1.05); /* ขยายเล็กน้อยเมื่อชี้เมาส์ */
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.7); /* เพิ่มเงา */
+  }
+  
